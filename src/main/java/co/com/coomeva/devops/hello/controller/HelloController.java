@@ -11,12 +11,12 @@ public class HelloController {
 	
 	@GetMapping
 	public String index() {
-		return "Hola desde Spring Boot Y Azure Cloud";
+		return "Hello from SprigBoot and Azure Cloud";
 	}
 	
 	@GetMapping("/{name}")
 	public String index(@PathVariable("name") String name) {
-		return "Hola "+name+" desde Spring Boot Y Azure Devops";
+		return "Hello "+name+" from SprigBoot and Azure Cloud";
 	}
 
 }
